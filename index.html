@@ -1,1 +1,178 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
 
+<meta charset="UTF-8">
+
+<title>EvilPopCorn Banner</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    background:#1d1d1d;
+
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+
+    padding:40px;
+}
+
+.banner{
+
+    width:1080px;
+    height:320px;
+
+    position:relative;
+
+    border-radius:22px;
+
+    overflow:hidden;
+
+    background:
+        linear-gradient(
+            90deg,
+            rgba(30,30,30,.96),
+            rgba(45,45,45,.92)
+        );
+
+    border:2px solid rgba(255,255,255,.08);
+
+    box-shadow:
+        0 15px 60px rgba(0,0,0,.45);
+}
+
+/********************/
+/* ПУГАЛО */
+/********************/
+
+.scarecrow{
+
+    position:absolute;
+
+    left:20px;
+    bottom:0;
+
+    height:300px;
+}
+
+.scarecrow img{
+
+    height:100%;
+}
+
+/********************/
+/* ПРАВАЯ ЧАСТЬ */
+/********************/
+
+.content{
+
+    position:absolute;
+
+    left:320px;
+    right:40px;
+    top:40px;
+}
+
+/********************/
+
+.title{
+
+    color:white;
+
+    font-size:52px;
+
+    font-weight:900;
+
+    font-family:Arial;
+
+    letter-spacing:2px;
+}
+
+/********************/
+
+.line{
+
+    width:100%;
+    height:2px;
+
+    margin:20px 0;
+
+    background:rgba(255,255,255,.15);
+}
+
+/********************/
+
+.twitch{
+
+    font-size:42px;
+
+    color:#9146FF;
+
+    font-weight:bold;
+
+    font-family:Arial;
+}
+
+/********************/
+
+.subtitle{
+
+    margin-top:20px;
+
+    color:#dddddd;
+
+    font-size:26px;
+
+    line-height:42px;
+
+    font-family:Arial;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="banner">
+
+<div class="scarecrow">
+
+<img src="scarecrow.png">
+
+</div>
+
+<div class="content">
+
+<div class="title">
+СТРИМЫ ТУТ
+</div>
+
+<div class="line"></div>
+
+<div class="twitch">
+twitch.tv/EvilPopCorn
+</div>
+
+<div class="subtitle">
+
+Главная площадка<br>
+Главный чат<br>
+Продолжение стрима
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
