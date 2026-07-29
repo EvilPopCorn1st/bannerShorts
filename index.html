@@ -14,7 +14,7 @@
 
 body{
     margin:0;
-    background:#00FF00;
+    background:transparent;
 }
 
 .banner{
@@ -37,7 +37,7 @@ body{
 
     height:320px;
 
-    animation:leftScene 12s linear infinite;
+    animation:leftScene 12s infinite;
 }
 
 .left img{
@@ -59,7 +59,7 @@ body{
 
     opacity:0;
 
-    animation:rightScene 12s linear infinite;
+    animation:rightScene 12s infinite;
 }
 
 .right img{
@@ -81,7 +81,7 @@ body{
 
     opacity:0;
 
-    animation:rightScene 12s linear infinite;
+    animation:rightScene 12s infinite;
 }
 
 .platform img{
@@ -105,29 +105,13 @@ body{
 
     opacity:0;
 
-    animation:centerScene 12s linear infinite;
+    animation:centerScene 12s infinite;
 }
 
 .center img{
 
     height:100%;
     display:block;
-}
-
-html,
-body{
-    width:100%;
-    height:100%;
-    overflow:hidden;
-}
-
-.left,
-.right,
-.platform,
-.center{
-    will-change:transform,opacity;
-    transform:translateZ(0);
-    backface-visibility:hidden;
 }
 
 /* ---------- ANIMATIONS ---------- */
